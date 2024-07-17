@@ -3,7 +3,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 
 export default defineConfig({
   plugins: [reactRefresh()],
-  base: '/didactic-train/,
+  base: '/didactic-train/',
   build: {
     outDir: 'dist',
     rollupOptions: {
